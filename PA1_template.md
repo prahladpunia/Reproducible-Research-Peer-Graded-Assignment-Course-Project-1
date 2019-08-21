@@ -1,6 +1,7 @@
 ---
 output: 
   html_document: 
+    fig_caption: yes
     keep_md: yes
 ---
 ```
@@ -185,7 +186,3 @@ ggplot(aes(x=interval,y=steps),data=avg_steps)+geom_line(color="darkblue")+facet
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-14-1.png)<!-- -->
-
-
-
-
